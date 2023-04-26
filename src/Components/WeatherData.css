@@ -5,9 +5,36 @@
 
 body {
   box-sizing: border-box;
+  text-align: center;
+  /* height: 100%; */
+  background-color: rgb(246, 246, 246);
 }
 
 img {
   max-width: 200px;
   height: auto;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main__wrapper {
+  background-color: white;
+  width: fit-content;
+  padding: 30px 45px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 5px 0;
 }
