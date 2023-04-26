@@ -21,16 +21,19 @@ export default function WeatherData() {
           setWeatherImg("/img/stormy.png");
           break;
         case "Drizzle":
-          setWeatherImg("/img/drzzle.png");
+          setWeatherImg("/img/drizzle.png");
           break;
         case "Rain":
           setWeatherImg("/img/rain.png");
           break;
         case "Snow":
-          setWeatherImg("https://www.example.com/snow.jpg");
+          setWeatherImg("/img/snow.jpg");
           break;
         case "Clear":
-          setWeatherImg("https://www.example.com/clear.jpg");
+          setWeatherImg("/img/clear.png");
+          break;
+        case "Smoke":
+          setWeatherImg("/img/smoke.png");
           break;
         case "Clouds":
           setWeatherImg("/img/cloudy.png");
